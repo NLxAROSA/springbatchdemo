@@ -1,0 +1,7 @@
+---
+applications:
+  - name: sbdemo
+    instances: 0
+    health-check-type: process
+    no-route: true
+    path: target/springbatchdemo-0.0.1-SNAPSHOT.jar
